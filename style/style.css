@@ -1,0 +1,22 @@
+@import url("/style/reset.css");
+@import url("/style/main.css");
+@font-face {
+  font-family: "Cafe24SsurroundAir";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ELAND_Nice_M";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Cafe24SsurroundAir", "ELAND_Nice_M", "Spoqa Han Sans",
+    "Spoqa Han Sans JP", "Spoqa Han Sans Neo", "sans-serif";
+}
