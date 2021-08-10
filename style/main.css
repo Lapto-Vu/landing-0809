@@ -1,11 +1,25 @@
 /* 커스튬 클라스 */
 
+a {
+  color: rgb(106, 140, 255);
+}
+
 .bold {
   font-family: "ELAND_Nice_M";
   letter-spacing: 0.1rem;
   padding-bottom: 0.2rem;
   font-size: 2.5rem;
   line-height: 3rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.text {
+  margin-bottom: 1rem;
 }
 
 /* 바디 */
@@ -37,7 +51,7 @@
 }
 
 .header__body {
-  padding-top: 1rem;
+  padding: 1rem;
   padding-left: 1rem;
   font-size: 1.2rem;
   line-height: 2rem;
@@ -56,7 +70,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
